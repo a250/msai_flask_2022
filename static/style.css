@@ -1,0 +1,132 @@
+body {
+    width: 100%;
+    text-align: center;
+}
+.wrap{
+    width: 90%;
+    background: #FAFAFA;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 3em;
+    color: gray;
+}
+
+.header {
+    width: 100%;
+    border: 1px dotted gray;
+}
+
+.mainmenu {
+    margin-top: 10px;
+    width: 100%;    
+    border: 1px dotted gray;
+    
+}
+
+.menuitem {
+    width: 130px;
+    border: 1px dotted grey; 
+    display: inline-block;
+    margin: 20px;
+    line-height: 2;
+    text-align: center;
+    color: grey;
+}
+
+.menuitem a{
+    color: grey;
+    
+}
+
+.content {
+    margin-top: 10px;
+    width: 100%;
+    min-height: 100px;
+    border: 1px dotted gray;
+}
+
+.content_name {
+    text-align: left;
+}
+.content_name h1 {
+    font-size: 1em;
+    margin: 20px;
+}
+
+
+.emptyblock {
+    width: 100%;
+    margin-top: 40px;
+    color: grey;
+    text-align: center;
+}
+
+.messages_list {
+    width: 100%;
+    margin-top: 40px;
+    color: grey;
+    text-align: left;
+}
+
+.messages_list li {
+    margin: 10px;
+    line-height: 3;
+    font-size: 0.8em;
+    color: black;
+
+}
+
+.messages_list a {
+    font-size: 1em;
+    margin: 10px;
+    line-height: 3;
+    color: cadetblue;
+}
+
+.blog_subject {
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10ps;
+    font-weight: bold;
+    border-bottom: 1px dashed gray;
+}
+
+.blog_body {
+    text-align: left;    
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10ps;
+    font-style: italic;
+}
+
+.blogform {
+    margin: 20px;
+    text-align: left;
+}
+
+.blogform label{
+    color: gray;
+    display: inline-block;
+    min-width: 100px;
+    width: 20%;
+    text-align: right;
+    margin-right: 10px;
+    vertical-align: top;
+}
+.blogform textarea{
+    width: 70%;
+    height: 200px;
+    min-width: 100px;
+}
+
+.blogform input{
+    width: 70%;
+    min-width: 100px;
+}
+.formsubmit input{
+    width: 100%;
+}

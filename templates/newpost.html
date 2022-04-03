@@ -1,0 +1,35 @@
+<!doctype html>
+<title>Blog APP</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}"\>
+
+                                                                                          
+<body>
+    <div class="wrap">
+        <div class="header">
+            <h1>Blog Application</h1>                                                                                     
+            <h2></h2>
+        </div>        
+        <div class="mainmenu">
+
+            {% for items in data['menu'] %}
+            <div class='menuitem'><a href="{{ items['link'] }}">{{ items['name'] }}</a></div>
+            {% endfor %}
+
+        </div>  
+        <div class="content">
+            <div class="content_name">
+                <h1>Adding blog record</h1>
+            </div>            
+            <div class="blogform">
+                <form action="/addblog" method="post">
+                  <fieldset>
+                    <legend>Your new record</legend>
+                    <p><label for="name">Subject</label><input type="text" id="subject" name="subject"></p>
+                      <p><label for="body">Text</label><textarea id="body" name="body"></textarea></p>
+                  </fieldset>
+                <p class="formsubmit"><input type="submit" value="Submit"></p>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
